@@ -1,10 +1,10 @@
 package com.company.creatures;
 
 public abstract class Animal {
-    final String species;
-    Double weight;
-    Integer age;
-    String name;
+    public final String species;
+    public Double weight;
+    public Integer age;
+    public String name;
     Boolean isAlive;
 
     static private final Double DEFAULT_CAT_WEIGHT = 2.0;
@@ -55,6 +55,5 @@ public abstract class Animal {
          */
     }
 
-    public abstract java.lang.String toString();
-
+    public abstract String toString();
 }

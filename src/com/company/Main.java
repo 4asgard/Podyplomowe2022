@@ -10,8 +10,10 @@ public class Main {
         Device Agnieszka = new Device("Audi","A8",2018);
         System.out.println(Agnieszka.toString());
 
-        FarmAnimal Tallulah = new FarmAnimal("Black",500.0,"Tallulah");
+        FarmAnimal Tallulah = new FarmAnimal("Black");
+        Tallulah.name = "Muuu";
         System.out.println(Tallulah.toString());
+
 //
 //        Human Agnieszka = new Human();
 //        Agnieszka.getSalary();
