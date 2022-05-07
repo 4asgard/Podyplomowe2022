@@ -1,14 +1,23 @@
 package com.company;
+import com.company.creatures.FarmAnimal;
+import com.company.device.Device;
+
 import java.sql.SQLOutput;
 
 public class Main {
 
     public static void main(String[] args) {
-        Human Agnieszka = new Human();
-        Agnieszka.getSalary();
-        Agnieszka.setSalary(15000.0);
+        Device Agnieszka = new Device("Audi","A8",2018);
+        System.out.println(Agnieszka.toString());
 
-        Agnieszka.setCar(new Car("C30", "Volvo"));
+        FarmAnimal Tallulah = new FarmAnimal("Black",500.0,"Tallulah");
+        System.out.println(Tallulah.toString());
+//
+//        Human Agnieszka = new Human();
+//        Agnieszka.getSalary();
+//        Agnieszka.setSalary(15000.0);
+//
+//        Agnieszka.setCar(new Car("C30", "Volvo"));
 //        Car car1 = new Car ("C30","Volvo")  ;
 //        System.out.println(car1.model);
 //        System.out.println(car1.producer);

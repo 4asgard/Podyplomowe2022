@@ -1,6 +1,6 @@
-package com.company;
+package com.company.creatures;
 
-public class Animal {
+public abstract class Animal {
     final String species;
     Double weight;
     Integer age;
@@ -54,5 +54,7 @@ public class Animal {
         }
          */
     }
+
+    public abstract java.lang.String toString();
 
 }
