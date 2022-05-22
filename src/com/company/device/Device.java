@@ -1,10 +1,6 @@
 package com.company.device;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.sql.SQLOutput;
-
-public class Device {
+public abstract class Device {
     final public String producer;
     final public String model;
     final public Integer yearOfProduction;
@@ -18,6 +14,5 @@ public class Device {
     public String toString()    {
         return "Producer: " + this.producer + " \nModel: " + this.model + " \nRok produkcji: " + this.yearOfProduction;
     }
-
 }
 

@@ -1,6 +1,6 @@
 package com.company.creatures;
 
-public abstract class Animal {
+public abstract class Animal implements Edbile, Feedable{
     public final String species;
     public Double weight;
     public Integer age;
@@ -27,9 +27,14 @@ public abstract class Animal {
         }
     }
 
-    void feed(){
+    @Override
+    public void feed(){
         weight += 1.0;
         System.out.println("thx for food");
+    }
+
+    public void feed(Double foodWeight){
+        System.out.println("djfdjf");
     }
 
      void takeForAWalk(){

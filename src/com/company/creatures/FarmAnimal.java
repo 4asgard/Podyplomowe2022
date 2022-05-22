@@ -9,4 +9,19 @@ public class FarmAnimal extends Animal {
     public String toString() {
         return this.species + " " + this.name;
     }
+
+    @Override
+    public void beEaten() {
+
+    }
+
+    @Override
+    public void feed() {
+        System.out.println("rrr");
+    }
+
+    @Override
+    public void feed(Double foodWeight) {
+
+    }
 }

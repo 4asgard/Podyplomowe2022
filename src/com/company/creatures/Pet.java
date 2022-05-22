@@ -9,4 +9,14 @@ public class Pet extends Animal {
     public String toString() {
         return this.species + " " + this.name;
     }
+
+    @Override
+    public void beEaten() {
+        System.out.println("www");
+    }
+
+    @Override
+    public void feed(Double foodWeight) {
+
+    }
 }
